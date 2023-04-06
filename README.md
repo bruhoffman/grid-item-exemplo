@@ -1,1 +1,1 @@
-# grid-item-exemplo
+# Template para acompanhar o exemplo sobre grid item
