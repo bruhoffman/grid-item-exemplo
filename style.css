@@ -6,6 +6,8 @@ div {
     height: 400px;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    /* justify-items: start;
+    align-items: start; */
 }
 
 .azul {
@@ -13,11 +15,15 @@ div {
     border-radius: 10px;
     border: 1px solid black;
 }
+
 .verde {
     background-color: #0ccd0c;
     border-radius: 10px;
     border: 1px solid black;
-
+    /*     justify-self: end;
+    align-self: end; */
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
 }
 
 li {
